@@ -1,0 +1,295 @@
+/* Variables */
+:root {
+  --font-family: "Open Sans", Arial, Roboto, sans-serif;
+  --normal-font: 400;
+  --bold-font: 700;
+  --bolder-font: 900;
+  --navbar-color: #ffffff;
+  --bg-color2: #ffffff;
+  --bg-color: #636263;
+  --about-color: #d6a20b;
+  --primary-color: #5260db;
+  --secondary-color: #ff7235;
+  --primary-shadow: #8b8eaf;
+  --secondary-shadow: #a17a69;
+  --line-height: 1.7rem;
+  --transition: 0.3s;
+  --animate-duration: 200ms;
+}
+/* Variables end 
+  --bottom-margin: 0.5rem;
+  --bottom-margin-2: 1rem;
+  /
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0;
+  }
+/* LOGIN CSS */
+  .bd-placeholder-img {
+    font-size: 1.125rem;
+    text-anchor: middle;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    user-select: none;
+  }
+
+  @media (min-width: 768px) {
+  .bd-placeholder-img-lg {
+    font-size: 3.5rem;
+    }
+  }
+/* Navbar */
+nav {
+  top: 0;
+  left: 0;
+  z-index: 1;
+  display: flex;
+  padding: 1rem 3.0rem;
+  background-color: var(--navbar-color);
+  box-shadow: 0 1px 2px rgba(0, 0, 0, 0.1);
+}
+
+nav h1 {
+  color: var(--primary-color);
+}
+
+nav a {
+  color: var(--primary-color);
+  transition: var(--transition);
+}
+nav a:hover {
+  color: var(--secondary-color);
+  border-bottom: 2px solid var(--secondary-color);
+}
+
+nav ul {
+  display: flex;
+  gap: 1rem;
+}
+
+nav ul li {
+  font-weight: var(--bold-font);
+}
+
+.burger-menu {
+  color: var(--primary-color);
+  font-size: 2rem;
+  border: 0;
+  background-color: transparent;
+  cursor: pointer;
+  display: none;
+}
+/* Navbar ends */
+
+  /*Navbar2*/
+  .navbarMiddle {
+    overflow: hidden;
+    background-color: #fff;
+  }
+
+  .navbarMiddle a {
+    float: right;
+    font-size: 15px;
+    color: black;
+    text-align: left;
+    padding: 2px 12px 2px;
+    text-decoration: none;
+    height: 2.5em;
+    width: 9em;
+  }
+
+
+  /* .navbarMiddle a:hover, .subnav:hover .subnavbtn {
+    background-color: rgb(163, 163, 255);
+  } */
+
+  .navbar2 {
+    overflow: hidden;
+    background-color: #333;
+  }
+  
+  .navbar2 a {
+    float: right;
+    font-size: 16px;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+  }
+  
+  .subnav {
+    float: right;
+    overflow: hidden;
+  }
+  
+  .subnav .subnavbtn {
+    font-size: 16px;  
+    border: none;
+    outline: none;
+    color: white;
+    padding: 14px 16px;
+    background-color: inherit;
+    font-family: inherit;
+    margin: 0;
+  }
+  
+  .navbar2 a:hover, .subnav:hover .subnavbtn {
+    background-color: rgb(236, 228, 228);
+  }
+  
+  .subnav-content {
+    display: none;
+    position: absolute;
+    left: 0;
+    background-color: red;
+    width: 100%;
+    z-index: 1;
+  }
+  
+  .subnav-content a {
+    float: left;
+    color: white;
+    text-decoration: none;
+  }
+  
+  .subnav-content a:hover {
+    background-color: #eee;
+    color: white;
+  }
+  
+  .subnav:hover .subnav-content {
+    display: block;
+  }
+
+  /* END OF DAYS FOR EVERYTHING NAV */
+
+  #firstHeader {
+    background-color: var(--about-color);
+    background-position: center;
+    background-size: cover;
+  }
+  .chooseUs {
+    background-color: #eee;
+  }
+  .sidechooseUs {
+    background-image: url("../images/image6.jpg");
+    opacity: 0.85;
+    align-self: center;
+    background-position: center;
+    background-size: cover;
+    height: 30em;
+
+  }
+
+  .headerCol {
+    background-image: url("../images/header-image-new.jpg");
+    background-position: center;
+    background-size: cover;
+    padding: 5% 5%;
+    color: #000;
+    text-align:right;
+    width: auto;
+    list-style: disc
+  }
+
+  /*Services section*/
+  #services {
+    background-color: #eee;
+  }
+/*Partners Section*/
+#partners {
+  text-align: center;
+  padding-top: 2%;
+  padding-bottom: 2%;
+  background-color: var(--bg-color2);
+  font-size: var(--bolder-font);
+
+}
+
+.partners-logo {
+  width: 10%;
+  margin: 20px 30px 50px;
+}
+/*Partners Section Ends*/
+#values {
+  background-image: url("../images/multi-ethnic-people1200x600.jpeg");
+  background-position: center;
+  background-size: cover;
+}
+/* Clients section */
+
+.clients-header h3 {
+  font-size: 36px;
+  color: var(--primary-color);
+  text-align: center;
+  font-weight: 500;
+}
+
+.clients-header p {
+  text-align: center;
+  margin: auto;
+  font-size: 15px;
+  padding-bottom: 60px;
+  color: #556877;
+  width: 50%;
+}
+
+#clients {
+  background-color: #eee;
+  box-shadow: 0 3px 5px rgba(0, 0, 0, 0.1);
+  
+}
+
+@media (max-width: 767px) {
+  .carousel-inner .carousel-item > div {
+    display: none;
+  }
+  .carousel-inner .carousel-item > div:first-child {
+    display: block;
+  }
+  .card {
+      width: 50%;
+      margin: 20px 20px 20px;
+    }
+}
+
+.carousel-inner .carousel-item.active,
+.carousel-inner .carousel-item-next,
+.carousel-inner .carousel-item-prev {
+  display: flex;
+}
+
+/* medium and up screens */
+@media (min-width: 768px) {
+
+  .carousel-inner .carousel-item-end.active,
+  .carousel-inner .carousel-item-next {
+    transform: translateX(25%);
+  }
+
+  .carousel-inner .carousel-item-start.active, 
+  .carousel-inner .carousel-item-prev {
+    transform: translateX(-25%);
+  }
+  .card {
+      width: 80%;
+      margin: 20px 20px 20px;
+    }
+}
+
+.carousel-inner .carousel-item-end,
+.carousel-inner .carousel-item-start { 
+  transform: translateX(0);
+}
+
+  /* Clients section ends */
+
+  footer {
+    background-color: var(--secondary-color);
+  }
+
+/*CONSULTANCY PAGE*/
+#whyISOconsultancy > div > article > div > h3 {
+  color: var(--primary-color);
+}
