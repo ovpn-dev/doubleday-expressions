@@ -158,10 +158,21 @@ span.psw {
 }
 .heroH1 {
   background-color: rgba(245, 255, 250, 0.5);
-  color: rgb(255, 251, 5);
+  color: #1B1C1E;
   width: 100%;
   border: 1px;
 
+}
+.alert {
+  margin-bottom: 1em;
+  padding: 10px;
+  background: #49b0e7;
+  font-family: 'Mukta Mahee', sans-serif;
+  font-size: 14px;
+  text-align: center;
+  color: #fff;
+  border-radius: 2.5px;
+  display: none;
 }
 .translates {
   font-size: 15px;
